@@ -30,8 +30,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.title = "领导科学"
         self.view.addSubview(mainTableView)
-        statas[0] = true;
-        mainTableView.frame = self.view.frame;
+        mainTableView.frame = self.view.bounds
+        
+    }
+    
+    func getTableViewPointY()->CGFloat{
+        return (self.navigationController?.navigationBar.bounds.size.height ?? 44) + UIApplication.shared.statusBarFrame.size.height
     }
 }
 
@@ -39,8 +43,8 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let view = ChapterHeaderView(reuseIdentifier: "ChapterHeaderView")
-        view.assignValue(chapters[section]["title"])
         view.section = section;
+        view.assignValue(chapters[section]["title"])
         return view
     }
     
@@ -51,6 +55,10 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
         let view = UIView()
 //        view.backgroundColor = uicolorf5
         return view
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 44
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
@@ -77,12 +85,13 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
         cell?.isSelected = false
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell(style: UITableViewCell.CellStyle.subtitle, reuseIdentifier: "cellId")
-        if indexPath.section == 0{
-            cell.textLabel?.text = (chapterInfos[indexPath.section])[indexPath.row]["title"]
+        let cell = ChapterTitleCell.createChapterTitleCell(tableView: tableView)
+        
+        cell.titLabel.text = (chapterInfos[indexPath.section])[indexPath.row]["title"]
+        if indexPath.row == (chapterInfos[indexPath.section]).count - 1 {
+            cell.leftLine.frame = CGRect(x: 20, y: 0, width: 1, height: 22)
         }else{
-            cell.textLabel?.text = "121212"
-
+            cell.leftLine.frame = CGRect(x: 20, y: 0, width: 1, height: 44)
         }
         return cell
     }
