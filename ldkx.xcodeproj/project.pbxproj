@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A66EEFF22CC8D1300E47CF9 /* ChapterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66EEFE22CC8D1300E47CF9 /* ChapterTextViewController.swift */; };
+		0A66EF0122CC916E00E47CF9 /* chapterTextOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66EF0022CC916E00E47CF9 /* chapterTextOptions.swift */; };
 		0A78EDB222CAF9420052A889 /* ChapterTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A78EDB122CAF9420052A889 /* ChapterTitleCell.swift */; };
 		0A78EDB422CB5AF50052A889 /* 0_0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0A78EDB322CB5AF50052A889 /* 0_0.txt */; };
 		0A78EDB722CB5D430052A889 /* ChapterShowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A78EDB622CB5D430052A889 /* ChapterShowController.swift */; };
@@ -67,10 +68,18 @@
 		0AA6FAA722C9F9B50069B5CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA6FAA522C9F9B50069B5CF /* LaunchScreen.storyboard */; };
 		0AA6FAB022CA095C0069B5CF /* BookTitleAndSubTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6FAAF22CA095C0069B5CF /* BookTitleAndSubTitle.swift */; };
 		0AA6FAB222CA10E50069B5CF /* ChapterHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6FAB122CA10E50069B5CF /* ChapterHeaderView.swift */; };
+		0AFB313022CDFEFE002943B9 /* 0_2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB312922CDFEFE002943B9 /* 0_2.txt */; };
+		0AFB313122CDFEFE002943B9 /* 0_1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB312A22CDFEFE002943B9 /* 0_1.txt */; };
+		0AFB313222CDFEFE002943B9 /* 0_5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB312B22CDFEFE002943B9 /* 0_5.txt */; };
+		0AFB313322CDFEFE002943B9 /* 0_6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB312C22CDFEFE002943B9 /* 0_6.txt */; };
+		0AFB313422CDFEFE002943B9 /* 0_4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB312D22CDFEFE002943B9 /* 0_4.txt */; };
+		0AFB313522CDFEFE002943B9 /* 0_3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB312E22CDFEFE002943B9 /* 0_3.txt */; };
+		0AFB313622CDFEFE002943B9 /* 0_7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0AFB312F22CDFEFE002943B9 /* 0_7.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A66EEFE22CC8D1300E47CF9 /* ChapterTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTextViewController.swift; sourceTree = "<group>"; };
+		0A66EF0022CC916E00E47CF9 /* chapterTextOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chapterTextOptions.swift; sourceTree = "<group>"; };
 		0A78EDB122CAF9420052A889 /* ChapterTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTitleCell.swift; sourceTree = "<group>"; };
 		0A78EDB322CB5AF50052A889 /* 0_0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = 0_0.txt; sourceTree = "<group>"; };
 		0A78EDB622CB5D430052A889 /* ChapterShowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterShowController.swift; sourceTree = "<group>"; };
@@ -174,6 +183,13 @@
 		0AA6FAA822C9F9B50069B5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AA6FAAF22CA095C0069B5CF /* BookTitleAndSubTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTitleAndSubTitle.swift; sourceTree = "<group>"; };
 		0AA6FAB122CA10E50069B5CF /* ChapterHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterHeaderView.swift; sourceTree = "<group>"; };
+		0AFB312922CDFEFE002943B9 /* 0_2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0_2.txt; sourceTree = "<group>"; };
+		0AFB312A22CDFEFE002943B9 /* 0_1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0_1.txt; sourceTree = "<group>"; };
+		0AFB312B22CDFEFE002943B9 /* 0_5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0_5.txt; sourceTree = "<group>"; };
+		0AFB312C22CDFEFE002943B9 /* 0_6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0_6.txt; sourceTree = "<group>"; };
+		0AFB312D22CDFEFE002943B9 /* 0_4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0_4.txt; sourceTree = "<group>"; };
+		0AFB312E22CDFEFE002943B9 /* 0_3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0_3.txt; sourceTree = "<group>"; };
+		0AFB312F22CDFEFE002943B9 /* 0_7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 0_7.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +225,7 @@
 			children = (
 				0A78EDB622CB5D430052A889 /* ChapterShowController.swift */,
 				0A66EEFE22CC8D1300E47CF9 /* ChapterTextViewController.swift */,
+				0A66EF0022CC916E00E47CF9 /* chapterTextOptions.swift */,
 			);
 			path = chapterModule;
 			sourceTree = "<group>";
@@ -396,9 +413,24 @@
 			isa = PBXGroup;
 			children = (
 				0AA6FAAF22CA095C0069B5CF /* BookTitleAndSubTitle.swift */,
-				0A78EDB322CB5AF50052A889 /* 0_0.txt */,
+				0AFB312822CDFD15002943B9 /* dagang */,
 			);
 			path = bookResource;
+			sourceTree = "<group>";
+		};
+		0AFB312822CDFD15002943B9 /* dagang */ = {
+			isa = PBXGroup;
+			children = (
+				0A78EDB322CB5AF50052A889 /* 0_0.txt */,
+				0AFB312A22CDFEFE002943B9 /* 0_1.txt */,
+				0AFB312922CDFEFE002943B9 /* 0_2.txt */,
+				0AFB312E22CDFEFE002943B9 /* 0_3.txt */,
+				0AFB312D22CDFEFE002943B9 /* 0_4.txt */,
+				0AFB312B22CDFEFE002943B9 /* 0_5.txt */,
+				0AFB312C22CDFEFE002943B9 /* 0_6.txt */,
+				0AFB312F22CDFEFE002943B9 /* 0_7.txt */,
+			);
+			path = dagang;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,10 +492,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFB313022CDFEFE002943B9 /* 0_2.txt in Resources */,
+				0AFB313222CDFEFE002943B9 /* 0_5.txt in Resources */,
 				0A78EDB422CB5AF50052A889 /* 0_0.txt in Resources */,
+				0AFB313622CDFEFE002943B9 /* 0_7.txt in Resources */,
+				0AFB313322CDFEFE002943B9 /* 0_6.txt in Resources */,
 				0AA6FAA722C9F9B50069B5CF /* LaunchScreen.storyboard in Resources */,
 				0AA6FAA422C9F9B50069B5CF /* Assets.xcassets in Resources */,
+				0AFB313522CDFEFE002943B9 /* 0_3.txt in Resources */,
 				0A78EDCA22CB68A10052A889 /* Animated image support.txt in Resources */,
+				0AFB313122CDFEFE002943B9 /* 0_1.txt in Resources */,
+				0AFB313422CDFEFE002943B9 /* 0_4.txt in Resources */,
 				0AA6FAA222C9F9B40069B5CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +541,7 @@
 				0A78EE4322CB6B6B0052A889 /* CALayer+YYAdd.m in Sources */,
 				0A78EE0522CB68BC0052A889 /* YYTextMagnifier.m in Sources */,
 				0A78EE4622CB6B6B0052A889 /* YYWeakProxy.m in Sources */,
+				0A66EF0122CC916E00E47CF9 /* chapterTextOptions.swift in Sources */,
 				0A78EE1622CB68BC0052A889 /* NSAttributedString+YYText.m in Sources */,
 				0A78EE1922CB68BC0052A889 /* UIView+YYText.m in Sources */,
 				0A78EE1222CB68BC0052A889 /* YYTextArchiver.m in Sources */,

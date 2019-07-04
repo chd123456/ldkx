@@ -31,11 +31,11 @@ let chapter13 = [["titleId":"13_0","title":"第一节 领导绩效概述"],["tit
 
 
 
-let chapterInfos = [chapter1,chapter2,chapter3,chapter4,chapter5,chapter6,chapter7,chapter8,chapter9,chapter10,chapter11,chapter12,chapter13]
+let chapterInfos = [dagang,chapter1,chapter2,chapter3,chapter4,chapter5,chapter6,chapter7,chapter8,chapter9,chapter10,chapter11,chapter12,chapter13]
 var statas = [false,false,false,false,false,false,false,false,false,false,false,false,false,false]
 
 let chapters = [
-//    ["titleId":"0","title":"领导科学自学考试大纲"],
+    ["titleId":"0","title":"领导科学自学考试大纲"],
                 ["titleId":"1","title":"第一章 绪论"],
                 ["titleId":"2","title":"第二章 领导与领导者、被领导者"],
                 ["titleId":"3","title":"第三章 领导的职能与原则"],

@@ -79,6 +79,14 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.tableView(tableView, didDeselectRowAt: indexPath);
+ 
+        let vc = ChapterShowController()
+        vc.fileName = (chapterInfos[indexPath.section])[indexPath.row]["titleId"] ?? ""
+        if vc.chapterOprations.subViewControllers.count <= 0 {
+            return
+        }
+        let nvc = UINavigationController(rootViewController: vc);
+        self.present(nvc, animated: true, completion: nil)
     }
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)

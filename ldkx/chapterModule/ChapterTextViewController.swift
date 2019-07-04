@@ -8,23 +8,44 @@
 
 import UIKit
 
-class ChapterTextViewController: UIViewController {
+class ChapterTextViewController: UIViewController,YYTextViewDelegate, YYTextKeyboardObserver {
+    var textView: YYTextView? = nil
+    var firstInitFlag:CGFloat = 0
+    var textString:String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.automaticallyAdjustsScrollViewInsets = true
+        self.view.backgroundColor = UIColor(red: 152/255.0, green: 188/255.0, blue: 159/255.0, alpha: 1.0)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if self.textView == nil {
+            initTextView()
+        }
     }
-    */
+    
+    func initTextView(){
+        let text:NSMutableAttributedString = NSMutableAttributedString(string: self.textString)
+        text.yy_font = UIFont.init(name: "Times New Roman", size: 20)
+        text.yy_lineSpacing = 4;
+        text.yy_kern = 4
+        text.yy_paragraphSpacing = 10
+        text.yy_paragraphSpacingBefore = 10
+        text.yy_firstLineHeadIndent = 20;
+        self.textView = YYTextView();
+        textView?.attributedText = text;
+        textView?.size = self.view.size;
+        let top:CGFloat = 30 - firstInitFlag;
+        textView?.textContainerInset = UIEdgeInsets(top: top, left: 10, bottom: 10, right: 10);
+        textView?.delegate = self;
+        textView?.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0);
+        textView?.scrollIndicatorInsets = textView!.contentInset;
+        textView?.selectedRange = NSMakeRange(text.length, 0);
+        textView?.isEditable = false
+        self.view.addSubview(textView!)
+
+    }
 
 }
