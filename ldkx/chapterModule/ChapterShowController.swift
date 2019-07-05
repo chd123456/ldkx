@@ -21,7 +21,7 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
                 return
             }
             let dataVC = self.chapterOprations.subViewControllers[0]
-            dataVC.firstInitFlag = 0
+            dataVC.firstInitFlag = 20
             self.pageController?.setViewControllers([dataVC], direction: UIPageViewController.NavigationDirection.forward, animated: true, completion: { (b) in
             })
         }

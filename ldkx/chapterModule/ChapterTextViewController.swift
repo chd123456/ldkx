@@ -37,7 +37,8 @@ class ChapterTextViewController: UIViewController,YYTextViewDelegate, YYTextKeyb
         self.textView = YYTextView();
         textView?.attributedText = text;
         textView?.size = self.view.size;
-        let top:CGFloat = 30 - firstInitFlag;
+        let topPointY:CGFloat = isIphoneXSerial() ? 50 : 30
+        let top:CGFloat = topPointY - firstInitFlag;
         textView?.textContainerInset = UIEdgeInsets(top: top, left: 10, bottom: 10, right: 10);
         textView?.delegate = self;
         textView?.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0);
