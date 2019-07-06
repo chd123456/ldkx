@@ -17,13 +17,6 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
     var fileName:String = "" {
         didSet{
             initPageViewController()
-            if self.chapterOprations.subViewControllers.count <= 0 {
-                return
-            }
-            let dataVC = self.chapterOprations.subViewControllers[0]
-            dataVC.firstInitFlag = 20
-            self.pageController?.setViewControllers([dataVC], direction: UIPageViewController.NavigationDirection.forward, animated: true, completion: { (b) in
-            })
         }
     }
     override func viewDidLoad() {
@@ -52,6 +45,14 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         self.addChild(self.pageController!)
         self.view.addSubview(self.pageController!.view)
         self.pageController?.didMove(toParent: self)
+        
+        if self.chapterOprations.subViewControllers.count <= 0 {
+            return
+        }
+        let dataVC = self.chapterOprations.subViewControllers[0]
+        dataVC.firstInitFlag = 20
+        self.pageController?.setViewControllers([dataVC], direction: UIPageViewController.NavigationDirection.forward, animated: true, completion: { (b) in
+        })
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {

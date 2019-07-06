@@ -79,7 +79,7 @@ class chapterTextOptions: NSObject {
        
         var subString = ""
         if index == numberLines && lastLines > 0 {
-            for k in (location ..< lastLines){
+            for k in (location ..< (location + lastLines)){
                 subString += (textLines[k] as String)
             }
         }else{

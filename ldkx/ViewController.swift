@@ -29,8 +29,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "领导科学"
+         mainTableView.frame = CGRect(x: 0, y: getTableViewPointY(), width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         self.view.addSubview(mainTableView)
-        mainTableView.frame = self.view.bounds
+       
         
     }
     
