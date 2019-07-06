@@ -29,7 +29,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "领导科学"
-         mainTableView.frame = CGRect(x: 0, y: getTableViewPointY(), width: self.view.bounds.size.width, height: self.view.bounds.size.height)
+        self.view.backgroundColor = .white
+         mainTableView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         self.view.addSubview(mainTableView)
        
         
@@ -80,10 +81,9 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.tableView(tableView, didDeselectRowAt: indexPath);
- 
         let vc = ChapterShowController()
         vc.fileName = (chapterInfos[indexPath.section])[indexPath.row]["titleId"] ?? ""
-        if vc.chapterOprations.subViewControllers.count <= 0 {
+        if vc.chapterOprations.textChapters.count <= 0 {
             return
         }
         let nvc = UINavigationController(rootViewController: vc);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A25DD8F22D09E2400D48DF2 /* DragButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A25DD8E22D09E2400D48DF2 /* DragButton.swift */; };
 		0A66EEFF22CC8D1300E47CF9 /* ChapterTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66EEFE22CC8D1300E47CF9 /* ChapterTextViewController.swift */; };
 		0A66EF0122CC916E00E47CF9 /* chapterTextOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66EF0022CC916E00E47CF9 /* chapterTextOptions.swift */; };
 		0A78EDB222CAF9420052A889 /* ChapterTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A78EDB122CAF9420052A889 /* ChapterTitleCell.swift */; };
@@ -63,7 +64,6 @@
 		0A78EE4D22CB6B6B0052A889 /* UIImage+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A78EE4222CB6B6B0052A889 /* UIImage+YYWebImage.m */; };
 		0AA6FA9D22C9F9B40069B5CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6FA9C22C9F9B40069B5CF /* AppDelegate.swift */; };
 		0AA6FA9F22C9F9B40069B5CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6FA9E22C9F9B40069B5CF /* ViewController.swift */; };
-		0AA6FAA222C9F9B40069B5CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA6FAA022C9F9B40069B5CF /* Main.storyboard */; };
 		0AA6FAA422C9F9B50069B5CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA6FAA322C9F9B50069B5CF /* Assets.xcassets */; };
 		0AA6FAA722C9F9B50069B5CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA6FAA522C9F9B50069B5CF /* LaunchScreen.storyboard */; };
 		0AA6FAB022CA095C0069B5CF /* BookTitleAndSubTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6FAAF22CA095C0069B5CF /* BookTitleAndSubTitle.swift */; };
@@ -78,6 +78,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A25DD8E22D09E2400D48DF2 /* DragButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragButton.swift; sourceTree = "<group>"; };
 		0A66EEFE22CC8D1300E47CF9 /* ChapterTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTextViewController.swift; sourceTree = "<group>"; };
 		0A66EF0022CC916E00E47CF9 /* chapterTextOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chapterTextOptions.swift; sourceTree = "<group>"; };
 		0A78EDB122CAF9420052A889 /* ChapterTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterTitleCell.swift; sourceTree = "<group>"; };
@@ -177,7 +178,6 @@
 		0AA6FA9922C9F9B40069B5CF /* ldkx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ldkx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA6FA9C22C9F9B40069B5CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AA6FA9E22C9F9B40069B5CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0AA6FAA122C9F9B40069B5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AA6FAA322C9F9B50069B5CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AA6FAA622C9F9B50069B5CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AA6FAA822C9F9B50069B5CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -226,6 +226,7 @@
 				0A78EDB622CB5D430052A889 /* ChapterShowController.swift */,
 				0A66EEFE22CC8D1300E47CF9 /* ChapterTextViewController.swift */,
 				0A66EF0022CC916E00E47CF9 /* chapterTextOptions.swift */,
+				0A25DD8E22D09E2400D48DF2 /* DragButton.swift */,
 			);
 			path = chapterModule;
 			sourceTree = "<group>";
@@ -399,7 +400,6 @@
 				0AA6FA9E22C9F9B40069B5CF /* ViewController.swift */,
 				0A78EDB522CB5B720052A889 /* chapterModule */,
 				0A78EDB022CAF4710052A889 /* main */,
-				0AA6FAA022C9F9B40069B5CF /* Main.storyboard */,
 				0AA6FAA322C9F9B50069B5CF /* Assets.xcassets */,
 				0AA6FAA522C9F9B50069B5CF /* LaunchScreen.storyboard */,
 				0AA6FAA822C9F9B50069B5CF /* Info.plist */,
@@ -503,7 +503,6 @@
 				0A78EDCA22CB68A10052A889 /* Animated image support.txt in Resources */,
 				0AFB313122CDFEFE002943B9 /* 0_1.txt in Resources */,
 				0AFB313422CDFEFE002943B9 /* 0_4.txt in Resources */,
-				0AA6FAA222C9F9B40069B5CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +558,7 @@
 				0A78EE0822CB68BC0052A889 /* YYTextInput.m in Sources */,
 				0A78EE1A22CB68BC0052A889 /* YYTextAsyncLayer.m in Sources */,
 				0A78EE4822CB6B6B0052A889 /* UIGestureRecognizer+YYAdd.m in Sources */,
+				0A25DD8F22D09E2400D48DF2 /* DragButton.swift in Sources */,
 				0A78EE0922CB68BC0052A889 /* YYTextLayout.m in Sources */,
 				0A78EE1422CB68BC0052A889 /* YYTextUtilities.m in Sources */,
 				0A78EE4422CB6B6B0052A889 /* YYFPSLabel.m in Sources */,
@@ -568,14 +568,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0AA6FAA022C9F9B40069B5CF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AA6FAA122C9F9B40069B5CF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0AA6FAA522C9F9B50069B5CF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

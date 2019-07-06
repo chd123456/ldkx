@@ -44,32 +44,31 @@ class chapterTextOptions: NSObject {
                         }
                     }
 
-                    self.subViewControllers = creatSubViewControllers(bookContent)
+                    self.textChapters = creatTextChapters()
                 }
                 
             }
 
         }
     }
-    var subViewControllers = [ChapterTextViewController]()
+    var textChapters = [String]()
     var textLines = [NSString]()
-    func creatSubViewControllers(_ text:NSString) -> [ChapterTextViewController] {
-        var array = [ChapterTextViewController]()
-        let countOne = getCharsCountForOnePage()
-        let countAll = text.length
+    func creatTextChapters() -> [String] {
+        var array = [String]()
+        let countOne = getNumberLinesForPage()
+        let countAll = textLines.count
         var pageNum = countAll / countOne
         if countAll % countOne > 0 {
             pageNum += 1;
         }
         for i in (0..<pageNum){
-            let subVC = ChapterTextViewController()
-            subVC.textString = getSomePointString(text, index: i, range: countOne)
-            array.append(subVC)
+            let textString = getSomePointString(i)
+            array.append(textString)
         }
         return array
     }
     
-    func getSomePointString(_ text:NSString,index:Int,range:Int)->String{
+    func getSomePointString(_ index:Int)->String{
     
         
         let location = numberLinesForOnePage * index
@@ -120,7 +119,10 @@ class chapterTextOptions: NSObject {
 
     
     func viewControllerAtIndex(_ index:NSInteger) -> ChapterTextViewController? {
-        return self.subViewControllers[index]
+        let subVC = ChapterTextViewController()
+        subVC.num = "\(index+1) / \(textChapters.count)"
+        subVC.textString = textChapters[index]
+        return subVC
     }
 }
 

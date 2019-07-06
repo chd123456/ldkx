@@ -12,19 +12,26 @@ class ChapterTextViewController: UIViewController,YYTextViewDelegate, YYTextKeyb
     var textView: YYTextView? = nil
     var firstInitFlag:CGFloat = 0
     var textString:String = ""
-
+    var num = "1/1"
+    let pageNumlabel:UILabel = UILabel()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.automaticallyAdjustsScrollViewInsets = true
         self.view.backgroundColor = UIColor(red: 152/255.0, green: 188/255.0, blue: 159/255.0, alpha: 1.0)
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
         if self.textView == nil {
             initTextView()
+            pageNumlabel.font = UIFont.systemFont(ofSize: 12);
+            pageNumlabel.textColor = UIColor.black
+            pageNumlabel.text = num
+            pageNumlabel.textAlignment = .left
+            self.view.addSubview(pageNumlabel)
+            let x = self.view.bounds.size.width - 60
+            let y = self.view.bounds.size.height - 40
+            
+            pageNumlabel.frame = CGRect(x: x, y: y, width: 100, height: 30)
         }
     }
+    
     
     func initTextView(){
         let text:NSMutableAttributedString = NSMutableAttributedString(string: self.textString)
