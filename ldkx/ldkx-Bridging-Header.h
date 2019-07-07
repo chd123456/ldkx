@@ -11,3 +11,4 @@
 #import "CALayer+YYAdd.h"
 #import "NSData+YYAdd.h"
 #import "UIGestureRecognizer+YYAdd.h"
+#import <AVFoundation/AVSpeechSynthesis.h>

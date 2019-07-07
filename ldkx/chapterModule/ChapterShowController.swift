@@ -14,22 +14,63 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
     let nextIndex:NSInteger = 0
     let chapterOprations = chapterTextOptions()
     var pageIsAnimating = true
+    var voice:AVSpeechSynthesizer!
+    var speech:AVSpeechUtterance?
+    var speechButton = UIButton()
     lazy var dragActivityFloatButton: DragButton = {
         
         let button = DragButton(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
         button.delegate = self;
-//        button.backgroundColor = UIColor.white
         return button
     }()
     var fileName:String = "" {
         didSet{
             
             initPageViewController()
+            speekerBtn()
             self.view.addSubview(dragActivityFloatButton)
-            dragActivityFloatButton.frame =  CGRect(x: 0, y: self.view.frame.size.height - 50, width: 50, height: 50)
+            dragActivityFloatButton.frame =  CGRect(x: 0, y: self.view.frame.size.height - 50, width: 100, height: 50)
         }
     }
 
+    func speekerBtn(){
+        voice = AVSpeechSynthesizer()
+        speechButton.setTitle("听👂", for: .normal)
+        speechButton.setTitle("停⏹", for: .selected)
+        speechButton.setTitleColor(UIColor.yellow, for: .normal)
+        speechButton.setTitleColor(UIColor.darkGray, for: .selected)
+        speechButton.titleLabel?.font = UIFont.systemFont(ofSize: 24);
+        self.view.addSubview(speechButton)
+
+        speechButton.frame = CGRect(x: self.view.frame.size.width - 200, y: self.view.frame.size.height - 50, width: 100, height: 50)
+            
+        speechButton.addTarget(self, action: #selector(self.speech(_:)), for: .touchUpInside)
+        
+        speech = AVSpeechUtterance(string: self.chapterOprations.bookContentString)
+        speech?.pitchMultiplier = 1 //[0.5-2.0]
+        speech?.volume = 1 //[0-1]
+        speech?.rate = 0.5//[0-1]
+        let language = AVSpeechSynthesisVoice(language: "zh-CN")
+        speech?.voice  = language
+
+    }
+    
+    @objc func speech(_ sender: UIButton){
+        sender.isSelected = !sender.isSelected
+        if sender.isSelected {
+            //听
+            if let s = speech {
+                if !voice.continueSpeaking() {
+                     voice.speak(s)
+                }
+            }
+        }else{
+            voice.pauseSpeaking(at: .word)
+            //停
+        }
+    }
+
+    
     func dragButtonClicked(sender: UIButton) {
         dragActivityFloatButton.removeFromSuperview()
         self.parent?.dismiss(animated: true, completion: nil)

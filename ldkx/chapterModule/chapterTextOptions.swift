@@ -10,11 +10,13 @@ import UIKit
 
 class chapterTextOptions: NSObject {
     var numberLinesForOnePage:NSInteger = 0
+    var bookContentString:String = ""
     var fileName:String = "" {
         didSet{
             let filePath = Bundle.main.path(forResource: fileName, ofType: "txt") ?? ""
             if let bookData = try? NSData(contentsOfFile: filePath, options: .mappedIfSafe) {
                 if let bookContent = NSString(data: bookData as Data, encoding: String.Encoding.utf8.rawValue){
+                    bookContentString = bookContent as String
                     let arr = bookContent.components(separatedBy: "\n")
                     var totalLines = 0
                     let oneLineChars = getCharsCountForOneLine()
