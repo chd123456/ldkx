@@ -16,7 +16,7 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
     var pageIsAnimating = true
     var voice:AVSpeechSynthesizer!
     var speech:AVSpeechUtterance?
-    var speechButton = UIButton()
+    var speechButton:UIButton!
     lazy var dragActivityFloatButton: DragButton = {
         
         let button = DragButton(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
@@ -35,6 +35,7 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
 
     func speekerBtn(){
         voice = AVSpeechSynthesizer()
+        speechButton = UIButton()
         speechButton.setTitle("听👂", for: .normal)
         speechButton.setTitle("停⏹", for: .selected)
         speechButton.setTitleColor(UIColor.yellow, for: .normal)
@@ -75,7 +76,10 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         dragActivityFloatButton.removeFromSuperview()
         self.parent?.dismiss(animated: true, completion: nil)
     }
-
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        voice.stopSpeaking(at: .immediate)
+    }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         initNavigationBar()
