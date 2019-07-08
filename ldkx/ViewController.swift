@@ -33,9 +33,40 @@ class ViewController: UIViewController {
          mainTableView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         self.view.addSubview(mainTableView)
        
-        
+        delay(0.5) {
+            let indexPageNumDic = getItem("indexPageNum")
+            let pathDic = getItem("indexPath")
+            var section:Int = -1
+            var row:Int =  -1
+            var indexPageNum:Int = -1
+            if pathDic.count > 0 {
+                section = pathDic["section"] ?? -1
+                row = pathDic["row"] ?? -1
+            }
+            if indexPageNumDic.count > 0 {
+                indexPageNum = indexPageNumDic["indexPageNum"] ?? -1
+            }
+            
+            if section != -1 && row != -1 && indexPageNum != -1 {
+                let indexPath = IndexPath(row: row, section: section)
+                statas[section] = true
+                self.mainTableView.reloadData()
+                self.openPageView(indexPath, indexPageNum: indexPageNum)
+            }
+        }
     }
-    
+    func openPageView(_ indexPath: IndexPath,indexPageNum: Int){
+        setItem("indexPageNum", dic: ["indexPageNum":indexPageNum])
+        let vc = ChapterShowController.shared
+        vc.currentIndex = indexPageNum
+        vc.fileName = (chapterInfos[indexPath.section])[indexPath.row]["titleId"] ?? ""
+        if vc.chapterOprations.textChapters.count <= 0 {
+            return
+        }
+        let nvc = UINavigationController(rootViewController: vc);
+        self.present(nvc, animated: true, completion: nil)
+
+    }
     func getTableViewPointY()->CGFloat{
         return (self.navigationController?.navigationBar.bounds.size.height ?? 44) + UIApplication.shared.statusBarFrame.size.height
     }
@@ -81,13 +112,8 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.tableView(tableView, didDeselectRowAt: indexPath);
-        let vc = ChapterShowController()
-        vc.fileName = (chapterInfos[indexPath.section])[indexPath.row]["titleId"] ?? ""
-        if vc.chapterOprations.textChapters.count <= 0 {
-            return
-        }
-        let nvc = UINavigationController(rootViewController: vc);
-        self.present(nvc, animated: true, completion: nil)
+        setItem("indexPath", dic: ["row":indexPath.row,"section":indexPath.section])
+        self.openPageView(indexPath, indexPageNum: 0)
     }
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
         let cell = tableView.cellForRow(at: indexPath)
@@ -104,4 +130,23 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
         }
         return cell
     }
+}
+
+func setItem(_ key:String,dic:[String:Int]){
+   let userDefault = UserDefaults.standard
+    userDefault.set(dic, forKey: key)
+    userDefault.synchronize()
+}
+func getItem(_ key:String)->[String:Int] {
+    let userDefault = UserDefaults.standard
+    if let dic = userDefault.value(forKey: key) as?[String:Int] {
+        return dic
+    }
+    return [String:Int]()
+}
+func removeItem(_ key:String){
+    let userDefault = UserDefaults.standard
+    userDefault.set(nil, forKey: key)
+    userDefault.synchronize()
+
 }

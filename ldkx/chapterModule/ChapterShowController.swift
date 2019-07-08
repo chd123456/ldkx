@@ -9,10 +9,11 @@
 import UIKit
 
 class ChapterShowController: UIViewController,UIPageViewControllerDataSource , UIPageViewControllerDelegate,DragButtonDelegate,UIGestureRecognizerDelegate,AVSpeechSynthesizerDelegate{
+    static let shared = ChapterShowController()
     var pageController:UIPageViewController?
     var currentIndex:NSInteger = 0
     let nextIndex:NSInteger = 0
-    let chapterOprations = chapterTextOptions()
+    var chapterOprations:chapterTextOptions!
     var pageIsAnimating = true
     var voice:AVSpeechSynthesizer!
     var speech:AVSpeechUtterance?
@@ -100,17 +101,26 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
     
     func dragButtonClicked(sender: UIButton) {
         dragActivityFloatButton.removeFromSuperview()
+        removeItem("indexPageNum")
         self.parent?.dismiss(animated: true, completion: nil)
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        voice.stopSpeaking(at: .immediate)
+        if voice != nil && voice.isSpeaking {
+            voice.stopSpeaking(at: .immediate)
+        }
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         initNavigationBar()
+        registerNotification(observer: self, selector: #selector(self.saveCurrentIndex), name: NoticeName.applicationDidEnterBackground.rawValue)
     }
     
+   @objc func saveCurrentIndex(){
+        if self.navigationController != nil {
+           setItem("indexPageNum", dic: ["indexPageNum":currentIndex])
+        }
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -123,6 +133,7 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
     
     
     func initPageViewController(){
+        self.chapterOprations = chapterTextOptions()
         chapterOprations.fileName = fileName
         self.pageController = UIPageViewController.init(transitionStyle: .pageCurl, navigationOrientation: .horizontal, options: [UIPageViewController.OptionsKey.spineLocation:NSNumber(value:UIPageViewController.SpineLocation.min.rawValue)])
            self.pageController?.dataSource = self
@@ -136,7 +147,7 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         if self.chapterOprations.textChapters.count <= 0 {
             return
         }
-        let dataVC = self.chapterOprations.viewControllerAtIndex(0)!
+        let dataVC = self.chapterOprations.viewControllerAtIndex(self.currentIndex)!
         dataVC.firstInitFlag = 20
         self.pageController?.setViewControllers([dataVC], direction: UIPageViewController.NavigationDirection.forward, animated: true, completion: { (b) in
             
