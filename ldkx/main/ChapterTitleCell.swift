@@ -41,10 +41,10 @@ class ChapterTitleCell:UITableViewCell {
         self.contentView.addSubview(topLine);
         self.contentView.addSubview(leftLine);
         self.contentView.addSubview(centerLine);
-        titLabel.frame = CGRect(x: 40, y: 0, width: UIScreen.main.bounds.size.width - 90, height: 44)
+        titLabel.frame = CGRect(x: 40, y: 0, width: UIScreen.main.bounds.size.width - 90, height: 50)
         topLine.frame = CGRect(x: 40, y: 0, width: UIScreen.main.bounds.size.width - 20, height: 1)
-        leftLine.frame = CGRect(x: 20, y: 0, width: 1, height: 44)
-        centerLine.frame = CGRect(x: 20, y: 22, width: 10, height: 1)
+        leftLine.frame = CGRect(x: 20, y: 0, width: 1, height: 50)
+        centerLine.frame = CGRect(x: 20, y: 25, width: 10, height: 1)
 
     }
     

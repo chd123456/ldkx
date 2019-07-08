@@ -91,7 +91,7 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 44
+        return 50
     }
     
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
@@ -124,9 +124,9 @@ extension  ViewController:UITableViewDelegate,UITableViewDataSource {
         
         cell.titLabel.text = (chapterInfos[indexPath.section])[indexPath.row]["title"]
         if indexPath.row == (chapterInfos[indexPath.section]).count - 1 {
-            cell.leftLine.frame = CGRect(x: 20, y: 0, width: 1, height: 22)
+            cell.leftLine.frame = CGRect(x: 20, y: 0, width: 1, height: 25)
         }else{
-            cell.leftLine.frame = CGRect(x: 20, y: 0, width: 1, height: 44)
+            cell.leftLine.frame = CGRect(x: 20, y: 0, width: 1, height: 50)
         }
         return cell
     }
