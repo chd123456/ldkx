@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChapterTextViewController: UIViewController,AVSpeechSynthesizerDelegate,YYTextViewDelegate, YYTextKeyboardObserver {
+class ChapterTextViewController: UIViewController,YYTextViewDelegate, YYTextKeyboardObserver {
     var textView: YYTextView? = nil
     var firstInitFlag:CGFloat = 0
     var textString:String = ""

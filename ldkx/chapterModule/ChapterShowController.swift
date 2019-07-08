@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ChapterShowController: UIViewController,UIPageViewControllerDataSource , UIPageViewControllerDelegate,DragButtonDelegate,UIGestureRecognizerDelegate{
+class ChapterShowController: UIViewController,UIPageViewControllerDataSource , UIPageViewControllerDelegate,DragButtonDelegate,UIGestureRecognizerDelegate,AVSpeechSynthesizerDelegate{
     var pageController:UIPageViewController?
     var currentIndex:NSInteger = 0
     let nextIndex:NSInteger = 0
@@ -27,14 +27,39 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         didSet{
             
             initPageViewController()
-            speekerBtn()
+            if currentIndex == 0 {
+                speekerBtn(self.chapterOprations.bookContentString)
+            }else{
+                speakerOprations()
+            }
+            
             self.view.addSubview(dragActivityFloatButton)
             dragActivityFloatButton.frame =  CGRect(x: 0, y: self.view.frame.size.height - 50, width: 100, height: 50)
         }
     }
+    func speechSynthesizer(_ synthesizer: AVSpeechSynthesizer, didFinish utterance: AVSpeechUtterance){
+        voice.stopSpeaking(at: .immediate)
+        speechButton.isSelected = false
+    }
+    
 
-    func speekerBtn(){
+    func speakerOprations(){
+        let length = self.chapterOprations.textChapters.count
+        var speakerTxt = ""
+        for i in currentIndex..<length {
+            speakerTxt += self.chapterOprations.textChapters[i]
+        }
+        speech = AVSpeechUtterance(string: speakerTxt)
+        speech?.pitchMultiplier = 1 //[0.5-2.0]
+        speech?.volume = 1 //[0-1]
+        speech?.rate = 0.5//[0-1]
+        let language = AVSpeechSynthesisVoice(language: "zh-CN")
+        speech?.voice  = language
+    }
+    
+    func speekerBtn(_ speakContentText:String){
         voice = AVSpeechSynthesizer()
+        voice.delegate = self
         speechButton = UIButton()
         speechButton.setTitle("听👂", for: .normal)
         speechButton.setTitle("停⏹", for: .selected)
@@ -47,7 +72,7 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
             
         speechButton.addTarget(self, action: #selector(self.speech(_:)), for: .touchUpInside)
         
-        speech = AVSpeechUtterance(string: self.chapterOprations.bookContentString)
+        speech = AVSpeechUtterance(string: speakContentText)
         speech?.pitchMultiplier = 1 //[0.5-2.0]
         speech?.volume = 1 //[0-1]
         speech?.rate = 0.5//[0-1]
@@ -57,6 +82,7 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
     }
     
     @objc func speech(_ sender: UIButton){
+         speakerOprations()
         sender.isSelected = !sender.isSelected
         if sender.isSelected {
             //听
@@ -93,6 +119,8 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         self.navigationController?.navigationBar.isTranslucent = false
         self.navigationController?.navigationBar.isHidden = true
     }
+    
+    
     
     func initPageViewController(){
         chapterOprations.fileName = fileName
