@@ -130,8 +130,6 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         self.navigationController?.navigationBar.isHidden = true
     }
     
-    
-    
     func initPageViewController(){
         self.chapterOprations = chapterTextOptions()
         chapterOprations.fileName = fileName
