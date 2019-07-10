@@ -33,12 +33,23 @@ class chapterTextOptions: NSObject {
                         for j in (0..<currentLines){
                             if (currentLines - 1 == j) && (restChars > 0) {
                                 let subRange = NSRange(location: location, length: restChars)
-                                let subString = (s as NSString).substring(with: subRange)
+                                var subString = (s as NSString).substring(with: subRange)
+                                if subString.hasPrefix("\n") {
+                                    subString = subString.replacingOccurrences(of: "\n", with: "")
+                                }
+                                if textLines.last?.isEqual(to: "\n") ?? false {
+                                }else{
+                                    textLines.append("\n" as NSString)
+                                }
+
                                 textLines.append(subString as NSString)
-                                textLines.append("\n" as NSString)
+                            
                             }else{
                                 let subRange = NSRange(location: location, length: length)
-                                let subString = (s as NSString).substring(with: subRange)
+                                var subString = (s as NSString).substring(with: subRange)
+                                if subString.hasPrefix("\n") {
+                                   subString = subString.replacingOccurrences(of: "\n", with: "")
+                                }
                                 textLines.append(subString as NSString)
                                 location = length * (j + 1)
                             }
@@ -95,7 +106,7 @@ class chapterTextOptions: NSObject {
     func getCharsCountForOnePage()->Int{
         let size = UIScreen.main.bounds.size
         let w = size.width - 20;
-        let offsetY:CGFloat = isIphoneXSerial() ? 120 : 70
+        let offsetY:CGFloat = isIphoneXSerial() ? 90 : 70
         let h = size.height - 30 - offsetY;
         let areaOneWord:CGFloat = 24 * 30;
         let count =  Int(w * h / areaOneWord) - 30
@@ -112,7 +123,7 @@ class chapterTextOptions: NSObject {
     
     func getNumberLinesForPage()->Int{
         let size = UIScreen.main.bounds.size
-        let offsetY:CGFloat = isIphoneXSerial() ? 180 : 70
+        let offsetY:CGFloat = isIphoneXSerial() ? 150 : 112
         let h = size.height - 30 - offsetY;
         let onelineHeight:CGFloat = 30;
         let count =  Int(h / onelineHeight)

@@ -31,7 +31,11 @@ class ChapterTextViewController: UIViewController,YYTextViewDelegate, YYTextKeyb
         pageNumlabel.textAlignment = .left
         self.view.addSubview(pageNumlabel)
         let x = self.view.bounds.size.width - 60
-        let y = self.view.bounds.size.height - 40
+        
+        var y = self.view.bounds.size.height - 40
+        if isIphoneXSerial() {
+            y = y - 38
+        }
         pageNumlabel.frame = CGRect(x: x, y: y, width: 100, height: 30)
     }
     
@@ -55,12 +59,12 @@ class ChapterTextViewController: UIViewController,YYTextViewDelegate, YYTextKeyb
         text.yy_firstLineHeadIndent = 20;
         self.textView = YYTextView();
         
-        textView?.size = self.view.size;
-        let topPointY:CGFloat = isIphoneXSerial() ? 50 : 30
-        let top:CGFloat = topPointY - firstInitFlag;
-        textView?.textContainerInset = UIEdgeInsets(top: top, left: 10, bottom: 30, right: 10);
+        textView?.size = CGSize(width: self.view.size.width, height: self.view.size.height - 20 - (isIphoneXSerial() ? 68 : 0));
+        let topPointY:CGFloat = isIphoneXSerial() ? 30 : 30
+        let top:CGFloat = topPointY;
+        textView?.textContainerInset = UIEdgeInsets(top: top, left: 10, bottom: 10, right: 10);
         textView?.delegate = self;
-        textView?.contentInset = UIEdgeInsets(top: 20, left: 0, bottom: -20, right: 0);
+        textView?.contentInset = UIEdgeInsets(top: 20, left: 0, bottom:50, right: 0);
         textView?.scrollIndicatorInsets = textView!.contentInset;
         textView?.selectedRange = NSMakeRange(text.length, 0);
         textView?.isEditable = false
