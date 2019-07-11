@@ -53,14 +53,14 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         slider.value = 50;
         slider.isContinuous = true
         slider.minimumTrackTintColor = .lightGray
-        slider.maximumTrackTintColor = .yellow
-        slider.thumbTintColor = UIColor.blue
+        slider.maximumTrackTintColor = .white
+        slider.thumbTintColor = UIColor.darkGray
         slider.addTarget(self, action: #selector(self.sliderChageValue(sender:)), for: .valueChanged)
         self.view.addSubview(slider)
         if isIphoneXSerial() {
-            slider.frame = CGRect(x: self.view.frame.size.width / 2 - 50, y: self.view.frame.size.height - 118, width: 100, height: 30)
+            slider.frame = CGRect(x: self.view.frame.size.width / 2 - 100, y: self.view.frame.size.height - 103, width: 200, height: 10)
         }else{
-            slider.frame = CGRect(x: self.view.frame.size.width - 200, y: self.view.frame.size.height - 80, width: 100, height: 30)
+            slider.frame = CGRect(x: self.view.frame.size.width / 2 - 100, y: self.view.frame.size.height - 65, width: 200, height: 10)
         }
         self.slider.isHidden = true
     }
