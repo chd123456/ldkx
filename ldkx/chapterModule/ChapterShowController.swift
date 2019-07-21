@@ -32,7 +32,9 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
             initPageViewController()
             initSpeakerBtn()
             initSliderControl()
-            speakerOprations(0.5)
+            let valueDic = getItem("sliderValue")
+            slider.value = Float(valueDic["sliderValue"] ?? 50)
+            _ = speakerOprations(slider.value / 100.0)
             self.view.addSubview(dragActivityFloatButton)
             if isIphoneXSerial() {
                  dragActivityFloatButton.frame =  CGRect(x: 0, y: self.view.frame.size.height - 88, width: 100, height: 50)
@@ -50,7 +52,8 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         slider = UISlider()
         slider.minimumValue = 0.0
         slider.maximumValue = 100.0
-        slider.value = 50;
+        let valueDic = getItem("sliderValue")
+        slider.value = Float(valueDic["sliderValue"] ?? 50)
         slider.isContinuous = true
         slider.minimumTrackTintColor = .lightGray
         slider.maximumTrackTintColor = .white
@@ -66,7 +69,9 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
     }
     @objc func sliderChageValue(sender:UISlider){
         voice.stopSpeaking(at: .immediate)
-        voice.speak(speakerOprations(sender.value / 100)!)
+        let sliderValue:Int = Int(sender.value)
+        setItem("sliderValue", dic: ["sliderValue":sliderValue])
+        voice.speak(speakerOprations(Float(sliderValue) / 100)!)
     }
     func initSpeakerBtn(){
         voice = AVSpeechSynthesizer()
@@ -102,23 +107,14 @@ class ChapterShowController: UIViewController,UIPageViewControllerDataSource , U
         return speech
     }
     
-//    func speekerBtn(_ speakContentText:String){
-//        speakerTxt = speakContentText
-//        speech = AVSpeechUtterance(string: speakerTxt)
-//        speech?.pitchMultiplier = 1 //[0.5-2.0]
-//        speech?.volume = 1 //[0-1]
-//        speech?.rate = 0.5//[0-1]
-//        speech?.postUtteranceDelay = 0.1
-//        let language = AVSpeechSynthesisVoice(language: "zh-CN")
-//        speech?.voice  = language
-//    }
-    
     @objc func speech(_ sender: UIButton){
         sender.isSelected = !sender.isSelected
         self.slider.isHidden = !sender.isSelected
         if sender.isSelected {
             //听
-            if let s = speakerOprations(0.5) {
+            let valueDic = getItem("sliderValue")
+            slider.value = Float(valueDic["sliderValue"] ?? 50)
+            if let s = speakerOprations(slider.value / 100.0) {
                 if !voice.continueSpeaking() {
                      voice.speak(s)
                 }
