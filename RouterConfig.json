@@ -1,0 +1,1778 @@
+{
+  "order-detail-shebao" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/order-detail-shebao.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "zhuiwen" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/zhuiwen.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "caselist" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/caselist.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "modify" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/modify.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-reimburse-2-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/reimburse-2/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "setting-push" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/setting-push.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "terminationSuccess" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cancellation/terminationSuccess.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "person" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/minfo/person.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-minfo-search" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/minfo/search.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "collectionCenter" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cardTicket/collectionCenter.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "confirmCancellation" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cancellation/confirmCancellation.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "insure-all" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/insure-all.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "agent-info" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/agent-info.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "comment-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/comment/comment-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "taocan" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/taocan.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "joy-map-inner" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/joy-map-inner.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-reimburse-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/reimburse/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "children" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/children.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "baoxianList" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/baoxianList.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "update-new" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/update-new.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "crop" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/crop/crop.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "feedback" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/feedback.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-messageCenter-systemNotification-article" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/messageCenter/systemNotification/article.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "dingdang" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/dingdang.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "joy-map-nav" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joy-map-nav.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "yuyue" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/yuyue.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "jigou" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/jigou.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "invoice" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/invoice.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "agent-shebao-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/agent-shebao-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "calculation" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/birth/calculation.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "advice-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/advice-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "call" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/call.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "showMsg" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/showMsg.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "reward-tax" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/reward-tax.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "daikuanNew" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/daikuanNew.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "newQa" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/newQa.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "year-tax" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/year-tax.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "agent-shebao-city" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/agent-shebao-city.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "calculator-all" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calculator-all.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "bx-order-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/bx-order-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "prolist" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/prolist.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "journal" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/journal.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "sbk-info" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/sbk-info.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "authentication" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cancellation/authentication.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "gjj-xieyi" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/gjj-xieyi.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "docterlist" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/docterlist.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "support" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/support.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "gjj-bind" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/gjj-bind.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "family" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/family.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "messageCenter" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/messageCenter/messageCenter.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "order-contact" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/order-contact.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "topicList" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/topicList.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "pick-city" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/pick-city.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tool-calc-security" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/tool-calc-security.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "oauth-unbind" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/oauth-unbind.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "confirm-order" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/confirm-order.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "search_all" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/search_all.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "dingdian_list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/dingdian_list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "docter_case" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/docter_case.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-insurance-calculation" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/insurance/calculation.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "daikuan-XiaoEDai" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/daikuan-XiaoEDai.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "order-detail" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/order-detail.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "notice" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/messageCenter/systemNotification/notice.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "order-detail-daikuan" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/order-detail-daikuan.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "pay" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/pay.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "my-info" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/my-info.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "pick-city-zixun" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/pick-city-zixun.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-share-index" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/share/index.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "pro_detail" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/pro_detail.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "makeAnAppointment" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/makeAnAppointment/makeAnAppointment.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tijian_store" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/tijian_store.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-unemployment-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/unemployment/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "setting-locker" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/setting-locker.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-o2o-joy-map-nav" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/joy-map-nav.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "confirm_order" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/confirm_order.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "licence" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/licence.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "yanglao" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/yanglao.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-insurance-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/insurance/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "auth-unlock" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/auth-unlock.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "insure-exam" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/insure-exam.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "my-self" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/my-self.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "pro_list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/pro_list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "security-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/security-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tool-cunkuan-lilv" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/tool-cunkuan-lilv.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "favorites" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/favorites.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "subscriber-vote" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/subscriber-vote.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "select-store" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/select-store.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "sbk-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/sbk-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "serviceindex" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/serviceindex.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "_www-view-chat" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/chat.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "order-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/order-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "education" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/education.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-index" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/index.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "service_location" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/service_location.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tool-calc-fund" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/tool-calc-fund.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "gjj-info" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/gjj-info.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "joy-map" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joy-map.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "loan" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/loan.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "cancellationOfAccounts" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cancellation/cancellationOfAccounts.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "login-zixun" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/login-zixun.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "personAdd" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/personAdd.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "writeOffAgreement" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cancellation/writeOffAgreement.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "my-course" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/my-course.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "labour" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/labour.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "calc-index" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/calc-index.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "social" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/makeAnAppointment/social.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "month-tax" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/month-tax.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "reward" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/reward.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-hospitals-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/hospitals/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "article-video" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/article-video.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "repository" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/chat/repository.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "systemNotification" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/messageCenter/systemNotification.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "contact" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/contact.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "invitation" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/invitation.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tool-calc-two-security" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/tool-calc-two-security.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "year-calc" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/year-calc.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "setting" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "3.6.5",
+    "url" : "https://www.baidu.com",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "myCoupon" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cardTicket/myCoupon.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "insure-info" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/insure-info.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "register" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/gjjLogon/register.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "docter" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/docter.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "advert" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/advert.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "native-index" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/native/native-index.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "fund" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/fund.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "about" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/about.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "zixun" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/zixun.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "yuyue-xq_jk" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/yuyue-xq_jk.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "storelist" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/storelist.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "income" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/income.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tool-daikuan-lilv" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/tool-daikuan-lilv.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "searchstore" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/searchstore.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "applicationForCancellation" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cancellation/applicationForCancellation.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "pay-zixun" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/pay-zixun.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "baoxianfenxi" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/baoxianfenxi.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-statebar-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/statebar/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "_www-view-joy-map-inner" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joy-map-inner.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "gjj-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/gjj-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-medical-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/medical/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "employment" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/makeAnAppointment/employment.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "productList" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cardTicket/productList.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "advice-form" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/advice-form.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "main" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/main.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "order-pay" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/order-pay.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "advice-cate" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/advice-cate.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "search_news" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/search_news.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "case" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/case.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tax-record" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/tax-record.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "index" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/index.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tuikuan-xq" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/tuikuan-xq.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-o2o-payment" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/payment.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "receive-award" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/receive-award.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "sbk-xieyi" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/sbk-xieyi.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "special" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/special.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "modify_jk" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/modify_jk.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "visualFrequency" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/visualFrequency.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "search" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/search.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "insurances-services" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insurances-services.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "jieqian" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/jieqian.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "selfPayment" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/selfPayment.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "footPrint" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/footPrint.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "chat" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/chat/chat.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "payment" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/payment/payment.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "course-collect" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/course-collect.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "auth-login" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/auth-login.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "security-calc" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/security-calc.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "activity" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/activity.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "baoxianfangan" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/baoxianfangan.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tuikuan" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/tuikuan.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "auth-bind" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/auth-bind.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "creditNew" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/creditNew.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "evaluating" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/evaluating.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "order-detail-zhongan" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/order-detail-zhongan.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "minfo-video" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/minfo/minfo-video.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "comment-detail" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/minfo/comment-detail.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "update" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/update.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "fund-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/fund-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "searchindex" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/searchindex.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tool-calc-salary" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/tool-calc-salary.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "404" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/404.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/birth/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-sbkLogon-register" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/sbkLogon/register.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "fund-calc" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/fund-calc.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "yuyue_jk" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/yuyue_jk.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "minfo" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/minfo/minfo.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "demo" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/minfo/demo.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "guide" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/guide.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "my-comment" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/my-comment.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "zixunxiangqing" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/zixunxiangqing.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "yiliao-analyze" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/medical-2/yiliao-analyze.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "rank" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/rank.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "insure-curriculum" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/insure-curriculum.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "map" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/map.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "medical" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/medical.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-retPenTrial-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/retPenTrial/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "labour-tax" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/labour-tax.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "yuyue-xq" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/order/yuyue-xq.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "analysis" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/analysis.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "daikuan-XianJinDai" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/daikuan-XianJinDai.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "orderMessage" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/messageCenter/orderMessage.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "qa" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/qa.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "shebaobind" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/shebaobind.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "baoxian-evaluationentry" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/baoxian-evaluationentry.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "insurances-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insurances-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "setting-cache" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/setting-cache.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "labour-prev-tax" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/labour-prev-tax.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "month-calc" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/month-calc.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "insurances" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insurances.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "course-detail" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/insure/course-detail.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "openUrl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/openUrl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "creditListNew" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/creditListNew.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "accountWriteOff" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cancellation/accountWriteOff.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "article" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/article.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-medical-2-tpl" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/medical-2/tpl.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-medical-yiliao-analyze" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/medical/yiliao-analyze.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "view-joymods-unemployment-calculation" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/joymods/unemployment/calculation.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "advice-detail" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/advice-detail.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "rent" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/rent.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "income-record" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/calc/income-record.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "operationalResults" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/cancellation/operationalResults.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "hospital" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/o2o/hospital.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "_www-view-order-list" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/order-list.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  },
+  "accountSettings" : {
+    "login" : 0,
+    "showType" : "right",
+    "resVersion" : "current",
+    "url" : "_www/view/accountSettings.html",
+    "nativePage" : 0,
+    "statusBarStyle" : "light"
+  }
+}
