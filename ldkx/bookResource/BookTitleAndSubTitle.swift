@@ -7,7 +7,7 @@
 //
 
 import Foundation
-let dagang = [["titleId":"0_0","title":"前言"],
+let dagang = [["titleId":"0_0","title":"组编前言"],
               ["titleId":"0_1","title":"I 课程性质与课程目标"],
               ["titleId":"0_2","title":"II 考核目标"],
               ["titleId":"0_3","title":"III 课程内容与考核要求"],
